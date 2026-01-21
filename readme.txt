@@ -34,7 +34,6 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 (c) Advanced features
 1. Navigation bar.
-2. Embedded audio.
 3. Contact form.
 
 
@@ -48,8 +47,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 - https://getbootstrap.com/docs/4.0/components/alerts/
-- Generative AI was used to guide me step-by-step in building a website, including HTML structure, Bootstrap layout, background images, and audio embedding. The generated base code was then modified accordingly. 
-
+- Generative AI was used to guide me step-by-step in building a website, including HTML structure, Bootstrap layout, and background images. The generated base code was then modified accordingly. 
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
