@@ -22,16 +22,20 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
+1. An image with its descriptive alt atrribute.
+2. Links to external pages (linkedin, instagram).
+3. footer HTML tag.
+4. custom icon from Font Awesome.
 
 (b) CSS features
-
-
+1. Modifying text colors.
+2. Adding custom Google fonts.
+3. Use of Bootstrap CSS helpers for text and image layout.
 
 (c) Advanced features
-
-
+1. Navigation bar.
+2. Embedded audio.
+3. Contact form.
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
@@ -43,11 +47,12 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
+- https://getbootstrap.com/docs/4.0/components/alerts/
 
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+N/A
 
 
 7. Is there anything special we need to know in order to run your code?
