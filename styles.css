@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    background-color: #ede5df;
+    background-color: #eceaea;
     font-size: 20px;
 }
 
@@ -14,7 +14,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(225, 239, 255);
+}
+
+.heart-link {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(225, 239, 255);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.frontpage .heart-link:hover {
+    transform: scale(1.2); 
 }
 
 .name {
@@ -22,16 +35,53 @@ body {
     font-size: 100px;
 }
 
-h1 {
+.about {
     font-family: 'Pinyon Script', cursive;
     font-size: 80px;
+    color:#a1c7e7;
 }
 
 h2 {
     font-family: 'Pinyon Script', cursive;
-
+    
 }
 
 .right-image {
     max-width: 300px;
+}
+
+.subtitle {
+    font-weight: 300; 
+    font-size: 25px;
+}
+
+.site-footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.social-icons a {
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0 12px;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #666;
+  transform: scale(1.15);
+}
+
+.footer-text {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.nav-link {
+    font-weight: 300;
+    font-size: 0.9rem;
 }
