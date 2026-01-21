@@ -1,8 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     background-color: #eceaea;
     font-size: 20px;
+}
+
+h2 {
+    font-family: 'Pinyon Script', cursive;
+    
 }
 
 .frontpage {
@@ -14,55 +19,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(225, 239, 255);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    color: rgb(0, 0, 0);
 }
 
-.heart-link {
+.enter-link {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
-    color: rgb(225, 239, 255);
+    color: #000000;
     cursor: pointer;
     transition: transform 0.2s;
 }
 
-.frontpage .heart-link:hover {
-    transform: scale(1.2); 
-}
-
-.name {
-    font-family: 'Pinyon Script', cursive;
-    font-size: 100px;
-}
-
-.about {
-    font-family: 'Pinyon Script', cursive;
-    font-size: 80px;
-    color: rgb(0, 0, 0);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-}
-
-h2 {
-    font-family: 'Pinyon Script', cursive;
-    
-}
-
-
-.right-image {
-    max-width: 400px;
-}
-
-.subtitle {
-    font-weight: 300; 
-    font-size: 20px;
-}
-
-.site-footer {
-  margin-top: 4rem;
-  padding: 2rem 0;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+.frontpage .enter-link:hover {
+    transform: scale(0.4); 
 }
 
 .social-icons a {
@@ -78,10 +48,24 @@ h2 {
   transform: scale(1.15);
 }
 
-.footer-text {
-  margin-top: 1rem;
-  font-size: 0.85rem;
-  color: #777;
+.name {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 100px;
+}
+
+.about {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+.subtitle {
+    font-weight: 300; 
+    font-size: 20px;
+}
+
+.right-image {
+    max-width: 400px;
 }
 
 .nav-link {
@@ -89,10 +73,21 @@ h2 {
     font-size: 0.9rem;
 }
 
+.site-footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-text {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #777;
+}
 
 .contact-page h1 {
     font-family: 'Pinyon Script', cursive;
     font-size: 65px;   
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
     color:rgb(0, 0, 0);
 }
